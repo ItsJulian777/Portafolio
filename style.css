@@ -7,7 +7,10 @@
 body {
     background: rgb(255, 255, 255);
 }
-
+section{
+    height: 70vh;
+    margin-top: 50px;
+}
 .menu {
     margin-top: 10px;
     padding: 10px;
@@ -42,6 +45,7 @@ body {
 .information {
     background: rgb(255, 255, 255);
     text-align: center;
+    height: 70vh;
 }
 
 .information h2 {
@@ -50,32 +54,35 @@ body {
 }
 
 .information img {
-    height: 355px;
+    height: 340px;
     width: 200px;
     margin-top: 50px;
 }
 .personal-information {
     margin: 20px 300px 20px 300px;
     text-align: justify;
+    
 }
 
 .skills-div {
     margin-top: 80px;
+    position: relative;
 }
 
 .skills-title {
     text-align: left;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 .img img{
-    height: 100px ; 
+    height: 130px ; 
     margin: 0 20px 0 20px;
 }
 
 
 
 .img {
-    margin: 20px 0 20px 0;
+    position: relative;
+    margin: 200px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -85,7 +92,7 @@ body {
 
 .contact-title {
     text-align: left;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .contact-icon {

@@ -73,24 +73,32 @@ section{
     text-align: left;
     margin-left: 300px;
 }
-.img img{
+.container_img img{
     height: 130px ; 
     margin: 0 20px 0 20px;
+    place-self: center;
 }
 
 
 
-.img {
-    position: relative;
-    margin: 200px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+.container_img {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas:
+     ". java java . "
+     " . html css ."
+     ". sql sql ."
+     
+     ;
+     justify-items: center;
+     justify-content: center;
+     column-gap: 50px;
+     row-gap: 20px;
+     
 }
 
-.contact-title {
+.contact-title{
     text-align: left;
     margin-left: 300px;
 }
@@ -109,3 +117,17 @@ section{
     align-content: center;
     align-items: center;
 }
+ .java_img{
+     grid-area: java;
+ }
+ .html_img{
+     grid-area: html;
+
+ }
+ .css_img{
+     grid-area: css;
+
+ }
+ .sql_img{
+     grid-area: sql;
+ }

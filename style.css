@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Cairo', sans-serif;
    
     
 }
@@ -29,16 +29,32 @@ body {
         position: relative;
         width: 80%;
         /* color: white; */
-        background: white;
+       
         text-align: center;
 }
 
 .info h1{
-    font-size: 60px;
+    font-size: 100px;
+    color: whitesmoke;
     
 }
 
+.hello{
+    color: white;
+}
 
+.personal-information{
+    color: white;
+    font-size: 16px;
+}
+
+/*Section2*/
+.section2{
+    
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    padding-top: 2rem;
+}
 
 
 

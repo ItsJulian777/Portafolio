@@ -7,20 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="progress.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <!--google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
 
-
+    
 </head>
 
 
@@ -29,92 +30,137 @@
     <section class="section1">
 
         <div class="info">
-            <h2>HELLO MY NAME IS </h2>
-            <h1>JULIAN FORERO</h1>
+            <h3 class="hello">HELLO MY NAME IS </h3>
+            <h1 class="name"> <b> Julian Forero</b></h1>
 
 
             <p class="personal-information">
-                Hola Mi nombre es Julian forero , tengo 19 años, y soy
-                de Colombia. soy estudiante de Ingenieria de Sistemas
-                apasionado por el Desarrollo web y mas especifico en la
-                rama de Front-End.
+
+                Hello, I'm Julian Forero, I'm 19 years old and I currently live in Colombia, I'm a systems engineering
+                student, passionate about web development more specifically in the front-end part.
             </p>
         </div>
 
 
     </section>
 
-    <div class="container">
-        <!-- <header>
-            <nav class="menu">
-                <ul id="button">
-                    <li><a href="#home">Home </a></li>
-                    <li><a href="#Sk">Skills </a></li>
-                    <li><a href="#contact">Contact </a></li>
+
+    <section class="section2">
+        <div class="skill-set container">
+
+            <div class="content content--mlarge skill-set__flex">
+                <ul class="skill-set__list">
+                 
+                    
+                    
+                    
+                    
                 </ul>
-            </nav>
-        </header> -->
-        <main>
-            <section class="section1">
-                <div class="information" id="home">
-
-                    <h2>Julian forero</h2>
-                    <p>Desarrolador web</p>
-
-                    <img src="Imagene/per.png" alt="Imagen personal" />
-                    <p class="personal-information">
-                        Hola Mi nombre es Julian forero , tengo 19 años, y soy
-                        de Colombia. soy estudiante de Ingenieria de Sistemas
-                        apasionado por el Desarrollo web y mas especifico en la
-                        rama de Front-End.
-                    </p>
-
-                </div>
-                <div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
-                            aria-valuemin="0" aria-valuemax="50" style="width:100%">
-                            40%
+                <ul class="skill-set__list">
+                    <li class="skill-set__item">
+                        <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/html.svg"
+                                alt="HTML/CSS"></div>
+                        <div class="skill-set__detail">
+                            <div class="skill-set__meta">
+                                <div class="skill-set__name">
+                                    <h4 class="small-title small-title--skill">HTML/CSS</h4>
+                                   
+                                </div>
+                                <p class="small-title small-title--skill skill-set__high">70<span
+                                        class="skill-set__ratio">%</span></p>
+                            </div>
+                            <div class="skill-set__bar p90 js-scroll in"></div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="skills-div" id="Sk">
-                    <h2 class="skills-title">Skills</h2>
-                    <div class="container_img">
-                        <img src="Imagene/Java.png" alt="Java" class="java_img" />
-                        <img src="Imagene/html.png" alt="html" class="html_img" />
-                        <img src="Imagene/Css.png" alt="Css" class="css_img" />
-                        <img src="Imagene/mysql.png" alt="mysql" class="sql_img" />
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="contact-icon" id="contact">
-                <h2 class="contact-title">Contact </h2>
+                    </li>
+                    <li class="skill-set__item">
+                        <div class="skill-set__icon"><img src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo--v1.png"/>
+                        </div>
+                        <div class="skill-set__detail">
+                            <div class="skill-set__meta">
+                                <div class="skill-set__name">
+                                    <h4 class="small-title small-title--skill">Java</h4>
+                                    <p class="skill-set__year">3MONTHS</p>
+                                </div>
+                                <p class="small-title small-title--skill">80<span class="skill-set__ratio">%</span></p>
+                            </div>
+                            <div class="skill-set__bar p80 js-scroll in"></div>
+                        </div>
+                    </li>
+                    <li class="skill-set__item">
+                        <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/wp.svg"
+                                alt="Wordpress"></div>
+                        <div class="skill-set__detail">
+                            <div class="skill-set__meta">
+                                <div class="skill-set__name">
+                                    <h4 class="small-title small-title--skill">Wordpress</h4>
+                                    <p class="skill-set__year">1YEARS</p>
+                                </div>
+                                <p class="small-title small-title--skill">70<span class="skill-set__ratio">%</span></p>
+                            </div>
+                            <div class="skill-set__bar p70 js-scroll in"></div>
+                        </div>
+                    </li>
+                    <li class="skill-set__item">
+                        <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/sass.svg"
+                                alt="Sass"></div>
+                        <div class="skill-set__detail">
+                            <div class="skill-set__meta">
+                                <div class="skill-set__name">
+                                    <h4 class="small-title small-title--skill">Sass</h4>
+                                    <p class="skill-set__year">1YEARS</p>
+                                </div>
+                                <p class="small-title small-title--skill">70<span class="skill-set__ratio">%</span></p>
+                            </div>
+                            <div class="skill-set__bar p70 js-scroll in"></div>
+                        </div>
+                    </li>
+                    <li class="skill-set__item">
+                        <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/js.svg"
+                                alt="Javascript"></div>
+                        <div class="skill-set__detail">
+                            <div class="skill-set__meta">
+                                <div class="skill-set__name">
+                                    <h4 class="small-title small-title--skill">Javascript</h4>
+                                    <p class="skill-set__year">1YEARS</p>
+                                </div>
+                                <p class="small-title small-title--skill">60<span class="skill-set__ratio">%</span></p>
+                            </div>
+                            <div class="skill-set__bar p60 js-scroll in"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-                <div class="icons">
-                    <a href="https://www.facebook.com/josejulian.forero.7" title="Facebook Julian forero"
-                        target="_blank">
-                        <i class="bi bi-facebook" style="margin: 0 20px 0
+    </section>
+
+
+    </main>
+    <footer>
+        <div class="contact-icon" id="contact">
+            <h2 class="contact-title">Contact </h2>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/josejulian.forero.7" title="Facebook Julian forero" target="_blank">
+                    <i class="bi bi-facebook" style="margin: 0 20px 0
                                 20px; height: 50px; color: blue;font-size:
                                 20px;"></i></a>
-                    <a href="https://www.instagram.com/julian03_02/?hl=es-la" title="Instagram Julian forero"
-                        target="_blank"><i class="bi bi-instagram" style="margin: 0 20px 0
+                <a href="https://www.instagram.com/julian03_02/?hl=es-la" title="Instagram Julian forero"
+                    target="_blank"><i class="bi bi-instagram" style="margin: 0 20px 0
                                 20px;color: black; font-size: 20px;"></i></a>
-                    <a href="https://wa.me/573138606393" title="Link
+                <a href="https://wa.me/573138606393" title="Link
                             Whatsapp" type="_blank">
-                        <i class="bi bi-whatsapp" style="margin: 0 20px 0
+                    <i class="bi bi-whatsapp" style="margin: 0 20px 0
                                 20px; color: green; font-size: 20px;"></i></a>
-                    <a href="https://github.com/Julian-D3v?tab=repositories" title="Link gitHub" target="blank">
-                        <i class="bi bi-github" style="margin: 0 20px 0
+                <a href="https://github.com/Julian-D3v?tab=repositories" title="Link gitHub" target="blank">
+                    <i class="bi bi-github" style="margin: 0 20px 0
                                 20px; color: black ; font-size: 20px;"></i></a>
-                </div>
             </div>
-        </footer>
+        </div>
+    </footer>
     </div>
+
+    <script src="progress.js"></script>
 </body>
 
 </html>
